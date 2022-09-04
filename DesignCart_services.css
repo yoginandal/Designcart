@@ -1,0 +1,309 @@
+/*/////////////////////Slides///////////////////////*/
+.Services_slide1{
+  color: #24262b;
+  padding-top:12rem;
+}
+
+.Services_slide2{
+  background: #24262b;
+  height: 22rem;
+}
+
+.Services_slide3{
+  padding: 4rem 0 0;
+}
+
+
+/*////////////////////////////home////////////////////////////*/
+.lottie_home{
+    width:25rem;
+    height: 60rem;
+    position: relative;
+    top: -33%;
+    left: 13%;
+    z-index: 1;
+}
+
+.lottie_circle{
+    position: relative;
+    left: 30%;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    background: #ffbc01;   
+    top: -45%;
+    }
+
+.lottie_text_svg{
+  position: relative;
+  left: 10%;
+  bottom: 35%;
+  width: 47%;
+}
+
+.lottie_svg{
+  position: relative;
+  width: 54%;
+  padding-top: 8rem;
+}
+
+.home_services{
+  display: flex;
+  padding: 10rem 0 0 0;
+}
+
+/*////////////////navbar/////////////////////////*/
+
+.menu_name{
+  padding-top: 2rem;
+}
+
+.ham{
+  position: absolute;
+  top: 50%;
+}
+
+.submenu_Services{
+  padding-bottom: 0.8rem;
+}
+
+
+    /*////////////////////////////services_svg//////////////*/
+#Services_Heading {
+  width: 65%;
+  animation: colorFill_services 1.5s ease forwards 4s;
+}
+
+#Services_Heading path:nth-child(1) {
+  stroke-dasharray: 50rem;
+  background: #0065c3;
+  stroke-dashoffset: 50rem; 
+  animation: animateText_services 2s ease forwards 2.3s;
+}
+
+#Services_Heading path:nth-child(2) {
+  stroke-dasharray: 55.313rem;
+  stroke-dashoffset: 55.313rem;
+  animation: animateText_services 2s ease forwards 0.5s;
+}
+
+#Services_Heading path:nth-child(3) {
+  stroke-dasharray: 58.063rem;
+  stroke-dashoffset: 58.063rem;
+  animation: animateText_services 2s ease forwards 0.7s;
+}
+
+#Services_Heading path:nth-child(4) {
+  stroke-dasharray: 58.063rem;
+  stroke-dashoffset: 58.063rem;
+  animation: animateText_services 2s ease forwards 0.9s;
+}
+
+#Services_Heading path:nth-child(5) {
+  stroke-dasharray: 50rem;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 1.3s;
+}
+
+#Services_Heading path:nth-child(6) {
+  stroke-dasharray: 37.813rem;
+  stroke-dashoffset: 37.813rem;
+  animation: animateText_services 2s ease forwards 1.5s;
+}
+
+#Services_Heading path:nth-child(7) {
+  stroke-dasharray: 30.875rem;
+  stroke-dashoffset: 30.875rem;
+  animation: animateText_services 2s ease forwards 1.8s;
+}
+
+#Services_Heading path:nth-child(8) {
+  stroke-dasharray: 37.813rem;
+  stroke-dashoffset: 37.813rem;
+  animation: animateText_services 2s ease forwards 2s;
+}
+
+#Services_Heading path:nth-child(9) {
+  stroke-dasharray: 50rem;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 2.3s;
+}
+
+#Services_Heading path:nth-child(10) {
+  stroke-dasharray: 30.875rem;
+  stroke-dashoffset: 30.875rem;
+  animation: animateText_services 2s ease forwards 2.5s;
+}
+
+#Services_Heading path:nth-child(11) {
+  stroke-dasharray: 37.5rem;
+  stroke-dashoffset: 37.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+  
+  @keyframes animateText_services {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes colorFill_services {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #ffbc01;
+    }
+  }
+
+  /*//////////////////////////////////text///////////////////////////////*/
+  .home_text{
+    font-size: 1.2rem;
+    padding: 2rem 6rem 0 0;
+  }
+
+ /*/////////////////////////////button/////////////////////////*/
+ .contact_us {
+  position: relative;
+  top: 2rem;
+  width: 8rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #ffbc01;
+  color: grey;
+  border-radius: 0.300rem;
+  cursor: pointer;
+  box-shadow: 0.313rem 0.313rem 0 0;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1.25rem;
+}
+
+.contact_us_link {
+  position: absolute;
+  text-decoration: none;
+  color: #f0f0f0;
+  z-index: 2;
+}
+
+.contact_us::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 8rem;
+  height: 3rem;
+  background: linear-gradient(to right, #ff7675, #e84393);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.contact_us:hover {
+  box-shadow: -0.313rem -0.313rem 0 0;
+}
+
+.contact_us:hover::after {
+  opacity: 1;
+  border-radius: 0.300rem;
+}
+
+/*/////////////////////////////cards//////////////////////*/
+.web_development{
+  color: #f0f0f0;
+  width: 30%;
+}
+
+.cards_Services{
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 4rem;
+  text-align: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.icon_services{
+  fill: #f0f0f0;
+  height: 3rem;
+}
+
+.icon_services:hover, .icon_heading:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.icon_heading{
+  padding: 1rem;
+}
+
+/*/////////////////////////////////////////Services/////////////////////////////////*/
+.web_development_Services_lottie{
+  height: 45rem;
+  position: relative;
+  width: 50%;
+}
+
+.text_services_lottie{
+  padding: 4rem 0 0 0;
+  display: flex;
+}
+
+
+.heading_lottie_Services{
+  font-size: 4rem;
+  padding-top: 4rem;
+  color: #ffbc01;
+  text-shadow: 0.25rem 0.25rem rgba(0,0,0, 1);
+}
+
+.lottie_text{
+  padding: 2rem 12rem 0 0;
+  font-size: 1.2rem;
+}
+
+.lottie4_services{
+  height: 37.5rem;
+}
+
+.lottie5_services{
+  height: 55rem;
+}
+
+.lottie5_div{
+  padding: 0;
+}
+
+.position_text_lottie_services{
+  position: relative;
+  left: 10%;
+  padding: 7rem 2rem 0 ;
+  width: 50%;
+}
+
+.position_text_lottie_services_lottie5{
+  padding: 10rem 0 0 0;
+}
+
+.position_text_lottie_services_lottie4{
+  padding: 2rem 0 0 0;
+}
+
+.company_logos_div{
+  height: 50rem;
+  width: 10%;
+}
+
+.lottie5_services_div{
+  width: 60%;
+}
+
+.company_logos{
+  height: 30rem;
+  width: 30rem;
+  position: relative;
+  left: -130%;
+  top: 13%;
+}

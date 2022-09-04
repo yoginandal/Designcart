@@ -1,0 +1,317 @@
+/*////////////////////////////////Slides//////////////////////////////*/
+.Aboutus_slide1{
+    color: #24262b;
+  padding-top:12rem;
+  height: 61rem;
+}
+
+.Aboutus_slide2{
+  display: flex;
+}
+
+.Aboutus_slide3{
+  background: #24262b;
+  height: 20rem;
+  text-align: center;
+  color: #fff;
+}
+
+.Aboutus_slide4,.Aboutus_slide5{
+  display: flex;
+  padding: 8rem 0 2rem 0;
+}
+
+
+/*//////////////////////////////////////home////////////////////////////*/
+.About_us_home_lottie{
+    position: relative;
+    top: -46%;
+    z-index: 1;
+}
+
+   /*/text-change/*/
+
+   #AboutUs, .AboutUs{
+    color: #24262b;
+    font-size: 2.9rem;
+}
+
+.AboutUs_text{
+    padding: 2rem 0 1rem;
+    color: #24262b;
+    font-size: 2.1rem;
+}
+
+.Aboutus_button{
+  background: #92E3A9;
+}
+
+.AboutUs_text_color{
+  color:#92E3A9;
+  font-weight: 600;
+}
+
+/*///////////////////////////////Heading////////////////////////////*/
+#Aboutus_Heading {
+    width: 65%;
+    animation: colorFill_services 1.5s ease forwards 4s;
+  }
+  
+  #Aboutus_Heading path:nth-child(1) {
+    stroke-dasharray: 50rem;
+    background: #0065c3;
+    stroke-dashoffset: 50rem; 
+    animation: animateText_services 2s ease forwards 2.3s;
+  }
+  
+  #Aboutus_Heading path:nth-child(2) {
+    stroke-dasharray: 55.313rem;
+    stroke-dashoffset: 55.313rem;
+    animation: animateText_services 2s ease forwards 0.5s;
+  }
+  
+  #Aboutus_Heading path:nth-child(3) {
+    stroke-dasharray: 58.063rem;
+    stroke-dashoffset: 58.063rem;
+    animation: animateText_services 2s ease forwards 0.7s;
+  }
+  
+  #Aboutus_Heading path:nth-child(4) {
+    stroke-dasharray: 58.063rem;
+    stroke-dashoffset: 58.063rem;
+    animation: animateText_services 2s ease forwards 0.9s;
+  }
+  
+  #Aboutus_Heading path:nth-child(5) {
+    stroke-dasharray: 50rem;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 1.3s;
+  }
+  
+  #Aboutus_Heading path:nth-child(6) {
+    stroke-dasharray: 37.813rem;
+    stroke-dashoffset: 37.813rem;
+    animation: animateText_services 2s ease forwards 1.5s;
+  }
+  
+  #Aboutus_Heading path:nth-child(7) {
+    stroke-dasharray: 30.875rem;
+    stroke-dashoffset: 30.875rem;
+    animation: animateText_services 2s ease forwards 1.8s;
+  }
+  
+  #Aboutus_Heading path:nth-child(8) {
+    stroke-dasharray: 37.813rem;
+    stroke-dashoffset: 37.813rem;
+    animation: animateText_services 2s ease forwards 2s;
+  }
+  
+  #Aboutus_Heading path:nth-child(9) {
+    stroke-dasharray: 50rem;
+    stroke-dashoffset: 50rem;
+    animation: animateText_services 2s ease forwards 2.3s;
+  }
+  
+  #Aboutus_Heading path:nth-child(10) {
+    stroke-dasharray: 30.875rem;
+    stroke-dashoffset: 30.875rem;
+    animation: animateText_services 2s ease forwards 2.5s;
+  }
+  
+  #Aboutus_Heading path:nth-child(11) {
+    stroke-dasharray: 37.5rem;
+    stroke-dashoffset: 37.5rem;
+    animation: animateText_services 2s ease forwards 2.7s;
+  }
+    
+    @keyframes animateText_services {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    @keyframes colorFill_services {
+      from {
+        fill: transparent;
+      }
+      to {
+        fill: #92E3A9;
+      }
+    }
+
+ /*///////////////////////////////////Who we are/////////////////////////////*/
+ .who_we_are{
+  width: 50%;
+  padding: 12rem 0 12rem 12rem;
+ }
+
+ .who_we_are_lottie{
+  width: 50%;
+ }
+
+ .who_we_are_heading{
+  font-size: 3rem;
+  color: #24262b;
+ }
+
+ .who_we_are_color{
+  color: #ffbc01;
+ }
+
+ .who_we_are_text{
+  padding: 2rem 0;
+  font-size: 1.2rem;
+ }
+
+ .underline_heading{
+  border-bottom: 0.3rem solid #ffbc01;
+ }
+
+ /*////////////////////////////////Fun and Creative agency/////////////////////*/
+ .Fun_and_Creative_heading{
+  font-size: 5rem;
+  padding: 4rem 0 2rem;
+ }
+
+ .Fun_and_Creative_text{
+  font-size: 1.2rem;
+ }
+ 
+ /*//////////////////////////////graph slide 4///////////////////////////////*/
+ .AboutUs_slide4_lottie{
+  height: 40rem;
+  position: relative;
+  left: -5%;
+  top: 20%;
+ }
+
+ .Aboutus_slide4_graph{
+  color:#525252;
+  padding: 8.5rem 0 0 0;
+  font-size:0.75rem;
+  position: relative;
+  left: -10%;
+  width: 75rem;
+margin:0 auto;
+color: #24262b;
+}
+
+.skill {
+  margin-bottom: 1.25rem;
+  position: relative;
+overflow-x:hidden;
+}
+
+.skill > p {
+  font-size: 1rem;
+font-weight: 800;
+  margin: 0;
+padding-bottom: 0.5rem;
+}
+
+.skill:before{
+  width: 100%;
+  height: 0.188rem;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #24262b;
+  opacity: 5%;
+  bottom: 0;
+}
+.skill-bar {
+  width: 100%;
+  height: 0.188rem;
+  background:#ffbc01;
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+  width: 95%;
+}
+
+.skill-bar span{
+  position: absolute;
+  top: -1.875rem;
+  padding: 0;
+  font-size: 1.125rem;
+  padding: 0.188rem 0;
+  font-weight: 800;
+}
+
+.skill-bar {
+  position: relative;
+
+}
+
+.skill1 .skill-count1 {
+  right: 0;
+}
+/* SKILL 2 */
+.skill2{
+  width: 98%;
+}
+
+.skill2 .skill-count2 {
+  right: 0;
+}
+/* SKILL 3 */
+.skill3{
+  width: 85%;
+}
+.skill3 .skill-count3 {
+  right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+  width: 95%
+}
+
+.skill4 .skill-count4 {
+  right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+  width: 92%;
+}
+
+.skill5 .skill-count5 {
+  right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+  width: 100%
+}
+
+.skill6 .skill-count6 {
+  right: 0;
+}
+
+/*/////////////////////////////////We love what we do/////////////////////////////*/
+.Aboutus_slide5_lottie{
+  height: 45rem;
+  position: relative;
+  top : -7rem;
+  left: 5%;
+}
+
+.Aboutus_slide5_text{
+  padding: 4rem 18rem 8rem 0;
+  width: 60%;
+  position: relative;
+  left: 14%;
+}
+
+.we_love_what_we_do_sub_heading{
+  color: grey;
+  padding: 4rem 12rem 1rem 0;
+}
+
+.Aboutus_slide5_star{
+  padding: 4rem 28rem 0;
+}

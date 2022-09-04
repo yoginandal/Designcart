@@ -1,0 +1,218 @@
+/*//////////////////////////////slides////////////////////////*/
+.Web_Development_slide1 {
+  background: #ffbc01;
+  height: 75rem;
+}
+
+.web_development_slide2 {
+  height: 20rem;
+  background: #2b2b2b;
+  position: relative;
+  top: -14rem;
+}
+
+.Web_development_slide3 {
+  height: 40rem;
+}
+
+.Web_development_slide4 {
+  background: #ededed;
+  height: 30rem;
+  padding: 0 0 0 9rem;
+}
+
+/*//////////////////////////web development heading/////////////////////////*/
+#Web_Development_Heading {
+  width: 85%;
+  animation: colorFill_services 1.5s ease forwards 4s;
+}
+
+#Web_Development_Heading path:nth-child(1) {
+  stroke-dasharray: 50rem;
+  background: #0065c3;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 2.3s;
+}
+
+#Web_Development_Heading path:nth-child(2) {
+  stroke-dasharray: 55.313rem;
+  stroke-dashoffset: 55.313rem;
+  animation: animateText_services 2s ease forwards 0.5s;
+}
+
+#Web_Development_Heading path:nth-child(3) {
+  stroke-dasharray: 58.063rem;
+  stroke-dashoffset: 58.063rem;
+  animation: animateText_services 2s ease forwards 0.7s;
+}
+
+#Web_Development_Heading path:nth-child(4) {
+  stroke-dasharray: 58.063rem;
+  stroke-dashoffset: 58.063rem;
+  animation: animateText_services 2s ease forwards 0.9s;
+}
+
+#Web_Development_Heading path:nth-child(5) {
+  stroke-dasharray: 50rem;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 1.3s;
+}
+
+#Web_Development_Heading path:nth-child(6) {
+  stroke-dasharray: 37.813rem;
+  stroke-dashoffset: 37.813rem;
+  animation: animateText_services 2s ease forwards 1.5s;
+}
+
+#Web_Development_Heading path:nth-child(7) {
+  stroke-dasharray: 30.875rem;
+  stroke-dashoffset: 30.875rem;
+  animation: animateText_services 2s ease forwards 1.8s;
+}
+
+#Web_Development_Heading path:nth-child(8) {
+  stroke-dasharray: 37.813rem;
+  stroke-dashoffset: 37.813rem;
+  animation: animateText_services 2s ease forwards 2s;
+}
+
+#Web_Development_Heading path:nth-child(9) {
+  stroke-dasharray: 50rem;
+  stroke-dashoffset: 50rem;
+  animation: animateText_services 2s ease forwards 2.3s;
+}
+
+#Web_Development_Heading path:nth-child(10) {
+  stroke-dasharray: 30.875rem;
+  stroke-dashoffset: 30.875rem;
+  animation: animateText_services 2s ease forwards 2.5s;
+}
+
+#Web_Development_Heading path:nth-child(11) {
+  stroke-dasharray: 37.5rem;
+  stroke-dashoffset: 37.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+#Web_Development_Heading path:nth-child(12) {
+  stroke-dasharray: 38.5rem;
+  stroke-dashoffset: 38.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+#Web_Development_Heading path:nth-child(13) {
+  stroke-dasharray: 39.5rem;
+  stroke-dashoffset: 39.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+#Web_Development_Heading path:nth-child(14) {
+  stroke-dasharray: 37.5rem;
+  stroke-dashoffset: 37.5rem;
+  animation: animateText_services 2s ease forwards 2.7s;
+}
+
+@keyframes animateText_services {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes colorFill_services {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #2b2b2b;
+  }
+}
+
+/*///////////////////////////////web development home lottie//////////////////////////*/
+.About_us_home_lottie {
+  top: -60%;
+  height: 74.1rem;
+}
+
+/*////////////////////////////web development button///////////////////*/
+.web_development_button {
+  background: #2b2b2b;
+}
+
+/*///////////////////////////web development home text////////////////*/
+.web_development_subheading {
+  font-size: 3rem;
+  font-weight: 450;
+  color: #f0f0f0;
+  padding: 2rem 0;
+}
+
+.web_development_text {
+  color: #2b2b2b;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+/*///////////////////////////////web development slide 2//////////////////////*/
+/*///////////////cards////////////////*/
+.web_development_cards {
+  display: flex;
+}
+
+.web_development_card_svg {
+  fill: #f0f0f0;
+}
+
+.web_development {
+  width: 18%;
+}
+
+/*///////////////////////////////////web development slide 3////////////////////*/
+.who_we_are_heading {
+  font-size: 3.5rem;
+  position: relative;
+  margin-left: 6rem;
+  top: -2rem;
+  z-index: 100;
+}
+
+.underline_heading {
+  position: relative;
+  top: 0;
+}
+
+.who_we_are_color {
+  position: relative;
+  top: 0;
+  margin: 0;
+}
+
+.Web_development_slide3_lottie {
+  position: relative;
+  height: 55rem;
+  top: -38rem;
+}
+
+.lottie_text {
+  padding-left: 12rem;
+}
+
+/*//////////////////////////////////////web development slide 4//////////////////////////*/
+.who_we_are_heading_slide4 {
+  top: 20%;
+  line-height: 7rem;
+  letter-spacing: 0.1rem;
+}
+
+.who_we_are_slide4_text_p {
+  padding: 1rem;
+  position: relative;
+  left: 50%;
+  top: -8rem;
+}
+
+.web_development_slide4_text {
+  font-size: 1.3rem;
+  position: relative;
+  top: -1rem;
+  left: 1%;
+}
